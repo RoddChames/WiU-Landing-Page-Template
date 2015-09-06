@@ -8,6 +8,8 @@ body{
     background-image: url("../img/woodenElectronic.jpeg");
     background-position: center;
     background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
 }
 #wrapper{
 	width:960px;
@@ -28,9 +30,12 @@ header{
 h1{
 	margin-top: 0;
 	padding-top: 10px;
+    letter-spacing: 1px;
 }
 h2{
 	margin-top: 20px;
+    letter-spacing: 1.3px;
+
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
@@ -73,7 +78,8 @@ td:first-child{
 	width: 67.5%;
 	float: left;
 	font-size: 1.4em;
-
+    line-height: 30px;
+    letter-spacing: .7px;
 }
 .main figure{
 	float: right;
